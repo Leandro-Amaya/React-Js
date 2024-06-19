@@ -1,0 +1,186 @@
+{
+  "productos": [
+      {
+          "id": 1,
+          "nombre": "Remera Basica Blanca",
+          "categoria": "remeras",
+          "precio": 10.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 100,
+          "img": "https://example.com/images/remera_basica_blanca.jpg"
+      },
+      {
+          "id": 2,
+          "nombre": "Remera Estampada",
+          "categoria": "remeras",
+          "precio": 12.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 50,
+          "img": "https://example.com/images/remera_estampada.jpg"
+      },
+      {
+          "id": 3,
+          "nombre": "Remera Negra",
+          "categoria": "remeras",
+          "precio": 11.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 75,
+          "img": "https://example.com/images/remera_negra.jpg"
+      },
+      {
+          "id": 4,
+          "nombre": "Remera Deportiva",
+          "categoria": "remeras",
+          "precio": 15.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 30,
+          "img": "https://example.com/images/remera_deportiva.jpg"
+      },
+      {
+          "id": 5,
+          "nombre": "Remera Cuello V",
+          "categoria": "remeras",
+          "precio": 13.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 60,
+          "img": "https://example.com/images/remera_cuello_v.jpg"
+      },
+      {
+          "id": 6,
+          "nombre": "Zapatillas Deportivas",
+          "categoria": "calzado",
+          "precio": 45.99,
+          "talla":  ["40,41,42,43,44"],
+          "stock": 40,
+          "img": "https://example.com/images/zapatillas_deportivas.jpg"
+      },
+      {
+          "id": 7,
+          "nombre": "Zapatos de Cuero",
+          "categoria": "calzado",
+          "precio": 60.99,
+          "talla":["40,41,42,43,44"],
+          "stock": 25,
+          "img": "https://example.com/images/zapatos_de_cuero.jpg"
+      },
+      {
+          "id": 8,
+          "nombre": "Botines",
+          "categoria": "calzado",
+          "precio": 50.99,
+          "talla":["40,41,42,43,44"],
+          "stock": 35,
+          "img": "https://example.com/images/botines.jpg"
+      },
+      {
+          "id": 9,
+          "nombre": "Sandalias",
+          "categoria": "calzado",
+          "precio": 25.99,
+          "talla":["40,41,42,43,44"],
+          "stock": 20,
+          "img": "https://example.com/images/sandalias.jpg"
+      },
+      {
+          "id": 10,
+          "nombre": "Mocasines",
+          "categoria": "calzado",
+          "precio": 55.99,
+          "talla":["40,41,42,43,44"],
+          "stock": 30,
+          "img": "https://example.com/images/mocasines.jpg"
+      },
+      {
+          "id": 11,
+          "nombre": "Jeans Azul",
+          "categoria": "pantalones",
+          "precio": 35.99,
+          "talla":["40,41,42,43,44"],
+          "stock": 50,
+          "img": "https://example.com/images/jeans_azul"
+      },
+      {
+          "id": 12,
+          "nombre": "Pantalones de Vestir",
+          "categoria": "pantalones",
+          "precio": 40.99,
+          "talla":["40,41,42,43,44"],
+          "stock": 30,
+          "img": "https://example.com/images/jeans_azul"
+      },
+      {
+          "id": 13,
+          "nombre": "Shorts Deportivos",
+          "categoria": "pantalones",
+          "precio": 20.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 40,
+          "img": "https://example.com/images/jeans_azul"
+      },
+      {
+          "id": 14,
+          "nombre": "Pantalones Cargo",
+          "categoria": "pantalones",
+          "precio": 45.99,
+          "talla": "36",
+          "stock": 25,
+          "img": "https://example.com/images/jeans_azul"
+      },
+      {
+          "id": 15,
+          "nombre": "Joggers",
+          "categoria": "pantalones",
+          "precio": 30.99,
+          "talla":["XS,S,M,L,XL,XXL"],
+          "stock": 35,
+          "img": "https://example.com/images/jeans_azul"
+      },
+      {
+          "id": 16,
+          "nombre": "Campera de Cuero",
+          "categoria": "abrigos",
+          "precio": 70.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 20,
+          "img": "https://example.com/images/jeans_azul"
+      },
+      {
+          "id": 17,
+          "nombre": "Campera Inflada",
+          "categoria": "abrigos",
+          "precio": 80.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 15,
+          "img": "https://example.com/images/jeans_azul"
+      },
+      {
+          "id": 18,
+          "nombre": "Saco de Lana",
+          "categoria": "abrigos",
+          "precio": 90.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 10,
+          "img": "https://example.com/images/jeans_azul"
+      },
+      {
+          "id": 19,
+          "nombre": "Abrigo Impermeable",
+          "categoria": "abrigos",
+          "precio": 60.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 25,
+          "img": "https://example.com/images/jeans_azul"
+      },
+      {
+          "id": 20,
+          "nombre": "Blazer",
+          "categoria": "abrigos",
+          "precio": 85.99,
+          "talla": ["XS,S,M,L,XL,XXL"],
+          "stock": 20,
+          "img": "https://example.com/images/jeans_azul"
+      }
+      
+  ]
+  
+}

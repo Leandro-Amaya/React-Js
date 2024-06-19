@@ -1,18 +1,17 @@
 import CartWidget from "./CartWidget"
-
+import { NavLink } from "react-router-dom"
 function Navbar() {
     return (
-          <nav className="flex items-center m-4 p-2 space-x-5 bg-white">
-             <a href="#">Indumentaria</a>
-             <a href="#">Calzado</a>
-             <a href="#">¿Donde encontrarnos?</a>
-             <a href="#">Contactanos</a>
-             <a href="#">Preguntas Frecuentes</a>
-             <CartWidget/>
+          <nav className="flex items-center gap-5 p-2 m-4 space-x-5 text-white">
+             <NavLink to="/category/remeras">Remeras</NavLink>
+             <NavLink to="/category/pantalones">Pantalones</NavLink>
+             <NavLink to="/category/abrigos">Abrigos</NavLink>
+             <NavLink to="/category/calzado" >Calzado</NavLink>
+             <NavLink to="/carrito" >{<CartWidget/>}</NavLink>
           </nav>
      
     )
 }
 
-export default Navbar
+export default Navbar//
   
